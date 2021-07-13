@@ -1,0 +1,172 @@
+
+.picturetiles {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.picturetiles-body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: space-between;
+}
+
+.picturetile {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /*border: 1px solid #eee;*/
+    width: 450px;
+    height: 400px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 2px 1px #ccc;
+    border-radius: 0px;
+    padding: 0px;
+    padding-left: 1px;
+    padding-top: 1px;
+}
+
+.picturetile:hover {
+    box-shadow: 1px 2px 4px 2px #888;
+}
+
+.picturetile-title {
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+}
+
+.picturetile-title-text {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.picturetile-title-text-label{
+    color: #000;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: none;
+    margin: auto;
+    white-space: break-spaces;
+    text-align: center;
+    justify-content: space-evenly;
+    line-height: 1.3;
+}
+
+.picturetile-label {
+    display: flex;
+    flex-direction: row;
+}
+
+.picturetile-label-label {
+    color: #3db1a5;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.picturetile-body { 
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 5px;
+    flex-grow: 1;    
+    text-align: center;
+    color: #000;
+    line-height: 1.3;
+}
+
+.picturetile-body-show-more {
+    color: #ccc;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.picturetile-logo {
+    display: flex;
+    flex-direction: column;
+    height: 240px;
+    position: relative;
+}
+
+.picturetile-logo-inner {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+}
+
+.picturetile-logo-img {
+    width: -webkit-fill-available;
+    margin-top: 0;
+    margin-bottom: auto;
+}
+
+.picturetile-brand {
+    display: flex;
+    flex-grow: 0;
+}
+
+.picturetile-brand-label {
+    color: #111;
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.picturetile-footer {
+    height: 40px;
+    display: flex;
+}
+
+.picturetile-footer-label {
+    color: #fefefe;
+    font-size: 14px;
+    font-weight: 500;
+    margin: auto;
+    cursor: pointer;
+    background-color: #3db1a5;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.picturetiles-pagination-bar {
+    display: flex;
+    flex-direction: row;
+}
+
+.picturetiles-pagination-bar-butons {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 0;
+    float: right
+}
+
+.picturetiles-pagination-bar-label {
+    color: #aaa;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.picturetiles-pagination-bar-button {
+    color: #aaa;
+    font-size: 24px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.picturetiles-pagination-bar-button:hover {
+    color: #3db1a5;
+}
+
+
+

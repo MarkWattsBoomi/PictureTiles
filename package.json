@@ -1,0 +1,48 @@
+{
+  "name": "pictile",
+  "version": "1.0.0",
+  "description": "Picture Tiles",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack -p --config webpack.production.config.js",
+    "build-no-source-map": "webpack -p --config webpack.production.config.js --devtool none",
+    "upload": "node upload.js",
+    "update": "node update.js",
+    "debug": "ngrok http --host-header=rewrite 8080",
+    "debug2": "ngrok http --region eu --host-header=rewrite 8080"
+  },
+  "author": "Dell Boomi",
+  "license": "MIT",
+  "dependencies": {
+    "buffer": "^6.0.3",
+    "flow-component-model": "^1.7.1",
+    "react": "^16.3.2",
+    "stream": "0.0.2",
+    "timers": "^0.1.1",
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.12"
+  },
+  "devDependencies": {
+    "@types/react": "^16.7.3",
+    "css-loader": "^3.3.2",
+    "mini-css-extract-plugin": "^0.5.0",
+    "source-map-loader": "^1.1.0",
+    "ts-loader": "^8.0.4",
+    "typescript": "^4.0.0",
+    "webpack": "^5.28.0",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.11.2",
+    "write-file-webpack-plugin": "4.4.1"
+  },
+  "flow": {
+    "filenames": {
+      "js": "pictile.js",
+      "css": "pictile.css"
+    }
+  },
+  "peerDependencies": {},
+  "bundledDependencies": [],
+  "optionalDependencies": {}
+}

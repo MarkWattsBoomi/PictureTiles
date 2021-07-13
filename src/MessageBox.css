@@ -1,0 +1,33 @@
+.message-box-dialog {
+    max-width: 700px;
+    border: 1px solid #eee !important;
+    box-shadow: 2px 2px 3px 2px #ccc !important;
+    transform: ease all 1s;
+}
+
+
+
+.message-box-dialog-header {
+    background-color: #fefefe !important;
+    border-bottom: 4px solid #009688 !important;
+}
+
+.message-box-dialog-header-title {
+    color: #009688 !important;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.message-box-dialog-header-button {
+    color: #009688 !important;
+}
+
+.modal-dialog-button-bar {
+    border-top: 1px solid #009688;
+}
+
+.modal-dialog-button-bar-button {
+    background-color: #009688;
+    color: #fefefe !important;
+    font-size: 12pt !important;
+}
