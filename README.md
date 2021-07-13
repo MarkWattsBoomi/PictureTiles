@@ -9,6 +9,8 @@ https://files-manywho-com.s3.amazonaws.com/e1dbcceb-070c-4ce6-95b0-ba282aaf4f48/
 https://files-manywho-com.s3.amazonaws.com/e1dbcceb-070c-4ce6-95b0-ba282aaf4f48/pictile.css
 ```
 
+## Class Name
+The class name to use in the "componentType" tag of your page's metadata is "PictureTiles"
 
 ## Functionality
 
@@ -29,6 +31,11 @@ Clicking the tile saves the selected model item to the state and triggers an out
 width and height if specified control the component's dimensions - in pixels.
 height is needed !!!
 
+## Model
+Set this to a List of objects containing the tile data you want to use.  An array of objects each with an ID, a title, a body text, an image uri, the uri of a page to go to if "Read More" button clicked.
+
+## State
+Set this to a Object of the same type as the model to receive the selected / clicked tile.
 
 ## Component Attributes
 
